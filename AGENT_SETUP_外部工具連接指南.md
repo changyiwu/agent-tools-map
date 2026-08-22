@@ -1,6 +1,5 @@
 # AGENT_SETUP：外部工具連接指南（給所有 AI Agent 讀）
 
-> 出處：三師爸 Sense Bar《AI Agent 基本功 — 連接外部工具》（影片：https://youtu.be/-kIzGOf0bZA）
 > 適用對象：任何 AI Agent，特別針對 Claude Code、ChatGPT 桌面版／Codex、Antigravity 2、OpenCode 校準。
 > 使用方式：使用者說「讀這份檔案，幫我把 ○○ 接起來」後，依本指南完成訪談、選路、授權、驗收與記錄。
 > 最後查證：2026-08-01。產品入口變動很快，實際操作前仍須確認官方文件。

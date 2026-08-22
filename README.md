@@ -1,7 +1,5 @@
 # ai-agent-external-tools
 
-> 三師爸 Sense Bar ・ [youtube.com/@sensebar](https://www.youtube.com/@sensebar)
-
 `ai-agent-external-tools` 是一套協助老師與初學者理解、選擇並安全設定 AI Agent 外部工具的資料。內容涵蓋雲端硬碟、Classroom、筆記、資料庫與常見教學服務。
 
 ## 📺 教學影片
@@ -83,4 +81,5 @@ Agent 會依序協助你：確認需求 → 選擇通道 → 說明授權 → �
 
 ---
 
-> 歡迎自由下載、分享、改作。製作：三師爸 Sense Bar
+> 歡迎自由下載、分享、改作。
+> 原始內容出自原作者三師爸，本專案為修改版本。
