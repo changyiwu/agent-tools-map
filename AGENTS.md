@@ -13,7 +13,7 @@
 ## 目標與路線圖
 
 - [x] 階段一：盤點既有文件，確立主要交付物與專案邊界
-- [x] 階段二：專案初始化（`agents.md`＋`handoff.md`＋git＋公開 GitHub repo＋Obsidian 筆記）
+- [x] 階段二：專案初始化（`AGENTS.md`＋`handoff.md`＋git＋公開 GitHub repo＋Obsidian 筆記）
 - [x] 階段三：外部工具連接路線有變更時，同步檢查兩份交付物是否一致
 - [x] 階段四：時效性資訊定期查證，補上最後查證日期與官方來源
 
@@ -23,7 +23,7 @@
 ai-agent-external-tools/
 ├─ README.md                             # 專案導覽
 ├─ AGENT_SETUP_外部工具連接指南.md        # 主要交付物：連接指南
-├─ agents.md                             # 本檔：專案藍圖
+├─ AGENTS.md                             # 本檔：專案藍圖
 ├─ handoff.md                            # 交接檔（每次收工必更新）
 ├─ .agents/                              # 專案層 Agent 設定
 └─ .gitignore
@@ -33,7 +33,7 @@ ai-agent-external-tools/
 
 | 層級 | 平台 | 位置 | 讀取時機 |
 |------|------|------|---------|
-| L1 | 本地（GDrive） | `agents.md`＋`handoff.md` | 每個 session |
+| L1 | 本地（GDrive） | `AGENTS.md`＋`handoff.md` | 每個 session |
 | L2 | GitHub | https://github.com/changyiwu/ai-agent-external-tools （公開） | 指定時 |
 | L3 | Obsidian | `ai-agent-external-tools/專案工作流程.md` | 有需要時 |
 
@@ -42,7 +42,7 @@ ai-agent-external-tools/
 | 檔案 | 時效 | 寫入方式 | 放什麼 |
 |------|------|---------|--------|
 | `handoff.md` | **只對下一個 session 有效**，過期即丟 | 每次收工整份重寫 | 做到哪、下一步、**這次**的暫時 workaround |
-| `agents.md`（本檔） | **長期有效**，每個 session 都適用 | 只有規則本身變了才改 | 目標、路線圖、常設規則、結構 |
+| `AGENTS.md`（本檔） | **長期有效**，每個 session 都適用 | 只有規則本身變了才改 | 目標、路線圖、常設規則、結構 |
 | Obsidian／`git log` | **歷史**：發生過什麼、為什麼 | 只增不刪 | 決策紀錄、踩坑完整版、逐次進度 |
 
 驗收標準：**`handoff.md` 整份刪掉，不應損失任何長期資訊**——會的話代表該升級進本檔卻沒升級。
@@ -58,7 +58,7 @@ ai-agent-external-tools/
 - 修改連接路線或產品入口時，同步檢查兩份主要交付物是否一致
 - 不提交 `.env`、憑證、token、`.codex/`、`.claude/` 或其他代理程式本機設定
 - 本專案不使用 Firebase，也不在初始化流程中部署或修改安全規則
-- `handoff.md` **不進 git**，靠 GDrive 同步；GitHub 備份涵蓋兩份主要交付物與 `agents.md`，**不涵蓋交接檔**
+- `handoff.md` **不進 git**，靠 GDrive 同步；GitHub 備份涵蓋兩份主要交付物與 `AGENTS.md`，**不涵蓋交接檔**
 - 金鑰分級：只有「僅限 Firebase 服務」的 Firebase App client key 可公開；**Gemini Developer API key 與 Service Account private key 都必須保密**。也不提交 token、PAT、OAuth secret
 - GitHub Pages **保持關閉**
 - **Padlet 官方 Public API 沒有「建立看板」端點**（只能處理既有看板的資料與貼文）；建板要用產品介面或經審查的第三方 MCP
