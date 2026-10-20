@@ -1,6 +1,6 @@
-# ai-agent-external-tools
+# agent-tools-map
 
-`ai-agent-external-tools` 是一套協助老師與初學者理解、選擇並安全設定 AI Agent 外部工具的資料。內容涵蓋雲端硬碟、Classroom、筆記、資料庫與常見教學服務。
+`agent-tools-map` 是一套協助老師與初學者理解、選擇並安全設定 AI Agent 外部工具的資料。內容涵蓋雲端硬碟、Classroom、筆記、資料庫與常見教學服務。
 
 ## 📺 教學影片
 

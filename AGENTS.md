@@ -1,4 +1,4 @@
-# ai-agent-external-tools（專案藍圖）
+# agent-tools-map（專案藍圖）
 
 > 本檔為跨 Agent 通用的專案藍圖（AGENTS.md 開放標準）。任何 Agent 的每個 session 都應先讀本檔＋`handoff.md`。
 
@@ -20,7 +20,7 @@
 ## 資料夾結構
 
 ```
-ai-agent-external-tools/
+agent-tools-map/
 ├─ README.md                             # 專案導覽
 ├─ AGENT_SETUP_外部工具連接指南.md        # 主要交付物：連接指南
 ├─ AGENTS.md                             # 本檔：專案藍圖
@@ -34,8 +34,8 @@ ai-agent-external-tools/
 | 層級 | 平台 | 位置 | 讀取時機 |
 |------|------|------|---------|
 | L1 | 本地（GDrive） | `AGENTS.md`＋`handoff.md` | 每個 session |
-| L2 | GitHub | https://github.com/changyiwu/ai-agent-external-tools （公開） | 指定時 |
-| L3 | Obsidian | `ai-agent-external-tools/專案工作流程.md` | 有需要時 |
+| L2 | GitHub | https://github.com/changyiwu/agent-tools-map （公開） | 指定時 |
+| L3 | Obsidian | `agent-tools-map/專案工作流程.md` | 有需要時 |
 
 ## 三個檔案的職責（依「時效性」分家，不是依「詳細程度」）
 
