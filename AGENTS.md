@@ -62,6 +62,7 @@ agent-tools-map/
 - 金鑰分級：只有「僅限 Firebase 服務」的 Firebase App client key 可公開；**Gemini Developer API key 與 Service Account private key 都必須保密**。也不提交 token、PAT、OAuth secret
 - GitHub Pages **保持關閉**
 - **Padlet 官方 Public API 沒有「建立看板」端點**（只能處理既有看板的資料與貼文）；建板要用產品介面或經審查的第三方 MCP
+- **產出一律放 `output/`**：本專案產生的檔案或資料夾（成品、匯出、報表、生成圖、渲染等）預設放專案根目錄的 `output/`，不另開 `outputs/`、`exports/`、`generated/`、`out/` 之類的資料夾，方便找；`output/` 不進 git。部署工具指定的建置目錄（`dist/`、`build/`）不在此限
 
 ## 外部 Padlet 模組引用規則
 
